@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Docker]" guice-stage="DEVELOPMENT">
+  <test name="DockerTest(failed)">
+    <classes>
+      <class name="docker.testcases.Containers">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="containers_Exercise"/>
+        </methods>
+      </class> <!-- docker.testcases.Containers -->
+    </classes>
+  </test> <!-- DockerTest(failed) -->
+</suite> <!-- Failed suite [Docker] -->
